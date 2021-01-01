@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"> 
+        <title>
+            this is my project using css
+        </title>
+        <style>
+            body{
+    background-color: rgb(150, 84, 204);
+}
+header{
+    background-color: darkmagenta;
+    text-align: center;
+    text-shadow: 2px 2px #bb3030;
+}
+.myform{
+    border: 5px dotted black;
+    width: 300px;
+    height: 260px;
+    padding: 10px 30px 10px 20px;
+    margin: 10px 30px 10px 760px;
+    text-align: center;
+    text-decoration: underline;
+}
+a:link{
+    color: #ff0000;
+    text-decoration: none;
+}
+a:visited{
+    color: #0000ff;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 150%;
+    color: rgb(36, 71, 0);
+    background-color: cyan;
+    text-decoration: underline; 
+}
+ul.a{
+    list-style-type: disc;
+    background: #3399ff;
+    padding: 20px;
+}
+ol.b{
+    list-style-position: upper-roman;
+    background: #ff9999;
+    padding: 20px;
+}
+button:hover{
+    border-radius: 10px;
+    background-color: green;
+}
+img{
+    border: 5px dotted black;
+    
+}
+input{
+    border: 1px solid black;
+    width: 100px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color:white;
+    color: white;
+}
+input:focus{
+    border: 2px solid black;
+    background-color: cadetblue;
+    color: black;
+}
+.month{
+    font-family: 'Courier New', Courier, monospace;
+    color:darkorange;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            This is header.
+        </header>
+        <div class="myform">
+            <form action="">
+                <label>first name</label>
+                <input type="text" placeholder="john" required><br><br>
+    
+                <label>last name</label>
+                <input type="text" placeholder="wick" required><br><br>
+    
+                <label>email-id</label>
+                <input type="email" placeholder="john@12334.com" required><br><br>
+    
+                <label>contact number</label>
+                <input type="number" placeholder="1234567890" required><br><br>
+    
+                <a href="default.asp" target="_blank">This is a link</a><br><br>
+                <button>submit</button><br><br>
+            </form>
+        </div>
+        <hr>
+        <div class="month">
+            <label for="Month">BIRTH Month</label>
+            <select name="Month">
+                <option value="0" selected disabled>Month</option>
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="jun">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+            </select>
+        </div>
+            I LIKE :
+            <ul class="a">
+                <li>coffee</li>
+                <li>juice</li>
+                <li>tea</li>
+            </ul>
+            I ALSO LIKE:
+            <ol class="b">
+                <li>sports</li>
+                <li>music</li>
+                <li>cycling</li>
+            </ol>
+            <img src="pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;"><br><br>
+    </body>
+
+    <footer>
+        this is footer
+    </footer>
+</html>
